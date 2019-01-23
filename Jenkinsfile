@@ -4,11 +4,11 @@ pipeline{
 
     stages {
 
-        stage ('Clean') {
+        stage ('skip test')
 
             steps {
 
-                    sh 'mvn clean'
+                    sh 'mvn clean install -DskipTests'
 
                   }
         }
