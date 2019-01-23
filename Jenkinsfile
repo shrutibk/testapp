@@ -4,7 +4,7 @@ pipeline{
 
     stages {
 
-        stage ('skip test')
+        stage ('skip test'){
 
             steps {
 
@@ -38,5 +38,5 @@ pipeline{
         }
 
     }
-
+}
 
